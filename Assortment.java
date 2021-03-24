@@ -30,7 +30,7 @@ public class Assortment {
         int[][] matrixAS = clone(matrixA,a,b);
         int[][] matrixAQ = clone(matrixA,a,b);
         int[][] matrixSS = clone(matrixA,a,b);
-        System.out.println("/////////////Tri a bulles ///////////////");
+        System.out.println("/////////////Tri par choix ///////////////");
         time();
         matrixAS=Sort(matrixAS,a,b);
         time();
